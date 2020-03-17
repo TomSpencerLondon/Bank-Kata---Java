@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff644431-94d6-4f1f-83e9-52fedfe5dd7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/TransactionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/AccountShould.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank/PrintStatementFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/PrintStatementFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank/AccountShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/AccountShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank/Account.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +26,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -57,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PrintStatementFeature">
+  <component name="RunManager" selected="JUnit.AccountShould">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -78,6 +75,21 @@
       <setting name="fixLineNumbers" value="false" />
       <module name="" />
       <method v="2" />
+    </configuration>
+    <configuration name="AccountShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BankKata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codurance.bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codurance.bank" />
+      <option name="MAIN_CLASS_NAME" value="com.codurance.bank.AccountShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="AccountShould.store_a_deposit_transaction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BankKata" />
@@ -126,6 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountShould" />
         <item itemvalue="JUnit.PrintStatementFeature" />
         <item itemvalue="JUnit.com.codurance.bank in BankKata" />
         <item itemvalue="JUnit.AccountShould.store_a_deposit_transaction" />
@@ -142,8 +155,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584399728210</updated>
-      <workItem from="1584399732622" duration="4742000" />
+      <workItem from="1584399732622" duration="5104000" />
     </task>
+    <task id="LOCAL-00001" summary="Add AccountShould tests and edit feature test">
+      <created>1584433464731</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584433464731</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,5 +180,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add AccountShould tests and edit feature test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add AccountShould tests and edit feature test" />
   </component>
 </project>
